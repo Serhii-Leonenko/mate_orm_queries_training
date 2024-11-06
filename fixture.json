@@ -21,16 +21,21 @@
     {"model": "app.book", "pk": 4, "fields": {
         "title": "2001: A Space Odyssey", "author": 4, "published_date": "1968-07-23"
     }},
+    {"model": "app.book", "pk": 5, "fields": {
+        "title": "Nightfall", "author": 1, "published_date": "1911-04-09"
+    }},
 
     {"model": "app.book_genres", "pk": 1, "fields": {"book_id": 1, "genre_id": 1}},
     {"model": "app.book_genres", "pk": 2, "fields": {"book_id": 2, "genre_id": 2}},
     {"model": "app.book_genres", "pk": 3, "fields": {"book_id": 3, "genre_id": 3}},
     {"model": "app.book_genres", "pk": 4, "fields": {"book_id": 4, "genre_id": 1}},
     {"model": "app.book_genres", "pk": 5, "fields": {"book_id": 4, "genre_id": 4}},
+    {"model": "app.book_genres", "pk": 6, "fields": {"book_id": 5, "genre_id": 1}},
 
     {"model": "app.member", "pk": 1, "fields": {"name": "Alice Johnson", "joined_date": "2023-01-10"}},
     {"model": "app.member", "pk": 2, "fields": {"name": "Bob Smith", "joined_date": "2022-11-20"}},
     {"model": "app.member", "pk": 3, "fields": {"name": "Charlie Brown", "joined_date": "2023-03-15"}},
+    {"model": "app.member", "pk": 4, "fields": {"name": "Bob Bobovich", "joined_date": "2024-02-01"}},
 
     {"model": "app.rental", "pk": 1, "fields": {
         "book": 1, "member": 1, "rented_date": "2023-04-01", "return_date": "2023-04-08"
@@ -39,15 +44,15 @@
         "book": 2, "member": 1, "rented_date": "2023-04-05", "return_date": "2023-04-12"
     }},
     {"model": "app.rental", "pk": 3, "fields": {
-        "book": 3, "member": 2, "rented_date": "2023-04-11", "return_date": null
+        "book": 3, "member": 2, "rented_date": "2023-04-11", "return_date": "2023-04-11"
     }},
     {"model": "app.rental", "pk": 4, "fields": {
-        "book": 1, "member": 3, "rented_date": "2023-04-15", "return_date": null
+        "book": 1, "member": 3, "rented_date": "2023-04-15", "return_date": "2023-04-15"
     }},
     {"model": "app.rental", "pk": 5, "fields": {
         "book": 4, "member": 3, "rented_date": "2023-04-20", "return_date": "2023-04-27"
     }},
     {"model": "app.rental", "pk": 6, "fields": {
-        "book": 2, "member": 2, "rented_date": "2023-04-22", "return_date": null
+        "book": 2, "member": 2, "rented_date": "2023-04-22", "return_date": "2023-04-27"
     }}
 ]
