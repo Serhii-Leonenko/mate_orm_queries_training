@@ -1,4 +1,5 @@
-1. Create venv
-2. Install requirements
-3. run ```python manage.py setup_databse```
-4. check your command inside in the main.py
+1. Clone the repo
+2. Create venv
+3. Install requirements
+4. Run ```python manage.py setup_databse```
+5. Check your command with main.py
